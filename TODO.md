@@ -50,6 +50,7 @@
 4. Configure the service:
    - Name: learnify-backend
    - Environment: Node
+   - Root Directory: backend (important: this tells Render to look for package.json in the backend folder)
    - Build Command: npm install
    - Start Command: npm start
 5. Add Environment Variables:
